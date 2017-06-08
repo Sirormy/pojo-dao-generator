@@ -1,5 +1,5 @@
 # pojo-dao-generator
-A tool to auto genarate pojo and Dao node_module
+A tool to auto genarate pojo and Dao node_module   
 自动生成 Pojo 类和 Dao 类 node_module 的工具。
 
 ## 实现方法
