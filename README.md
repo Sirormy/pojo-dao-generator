@@ -4,7 +4,7 @@ A tool to auto genarate pojo and Dao node_module
 
 ## 实现方法
 
-1. 从 MySQL 获取表信息，使用 Squelize 将 Table 封装成 Pojo 类。
+1. 从 MySQL 获取表信息，使用 Sequelize 将 Table 封装成 Pojo 类。
 2. 根据 Pojo 类生成 Dao 类，并将其导出到 node_module。
 
 数据库配置文件: `config/config.json`， 默认使用开发(development)选项。
