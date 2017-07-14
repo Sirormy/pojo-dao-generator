@@ -1,0 +1,22 @@
+{
+  "name": "pojo-dao-generator",
+  "version": "1.0.0",
+  "description": "A tool to auto genarate pojo and Dao node_module",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test/*",
+    "start": "node index.js"
+  },
+  "author": "Sirormy",
+  "license": "MIT",
+  "dependencies": {
+    "mysql": "^2.13.0",
+    "sequelize": "^3.30.4",
+    "sequelize-auto": "^0.4.28"
+  },
+  "devDependencies": {
+    "chai": "^4.1.0",
+    "expect.js": "^0.3.1",
+    "mocha": "^3.4.2"
+  }
+}
